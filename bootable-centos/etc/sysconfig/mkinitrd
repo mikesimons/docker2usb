@@ -1,0 +1,6 @@
+LIVEOS="yes"
+PROBE="no"
+MODULES+="sr_mod sd_mod ide-cd cdrom"
+MODULES+="sym53c8xx aic7xxx mptsas udf virtio_blk virtio_pci virtio_scsi virtio_net virtio_mmio virtio_balloon virtio-rng"
+MODULES+="ehci_hcd uhci_hcd ohci_hcd xhci_hcd usb_storage usbhid uas"
+MODULES+="vfat msdos isofs ext4 xfs btrfs"
